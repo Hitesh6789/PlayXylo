@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-color: #10457f;
+}
+
+#level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 5%;
+    color: #FEF2BF;
+}
+
+.xylo_Container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn {
+    width: 55px;
+    border-radius: 15px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+
+#c {
+    background-color: #e55f5b;
+    height: 400px;
+}
+
+#d {
+    background-color: #f3af3e;
+    height: 350px;
+}
+
+#e {
+    background-color: #faf06f;
+    height: 300px;
+}
+
+#f {
+    background-color: #70d882;
+    height: 250px;
+}
+
+#g {
+    background-color: #74cefe;
+    height: 200px;
+}
+
+#a {
+    background-color: #589bfe;
+    height: 150px;
+}
+
+#b {
+    background-color: #6967c6;
+    height: 100px;
+}
+
+#c1 {
+    background-color: #ed6561;
+    height: 50px;
+}
+
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
